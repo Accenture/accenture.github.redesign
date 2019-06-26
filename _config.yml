@@ -29,3 +29,4 @@ blog_intro: "Welcome to the Accenture blog series on GitHub. We will feature the
 markdown: kramdown
 
 timezone: Europe/Helsinki
+exclude: ['node_modules']
