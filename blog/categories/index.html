@@ -153,9 +153,10 @@ defer(function () {
 	    		postCategoriesList += '<a href="{{site.baseurl}}/blog/categories/?c='+cat+'" class="category category-0 index-'+index+'">'+catName+'</a>'+"\n";
 	    	});
 
-	    	
+			authorName = "";
+			authorPhoto = "";
     		for(i=0;i<siteAuthors.length;i++){
-    			if(siteAuthors[i].slug == post.author){
+    			if(post.author && post.author.includes(siteAuthors[i].slug)) {
     				authorName = siteAuthors[i].name;
     				authorPhoto = siteAuthors[i].photo;
     			}
