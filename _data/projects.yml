@@ -31,6 +31,6 @@
 - slug: blockchain
   title: Blockchain Automation Framework
   description: Automation framework to consistently deploy production-ready DLT platform on existing Kubernetes clusters
-  logo: /img/project/Hyperledger-logo.png
+  logo: /img/project/hyperledgerlabs_logo.png
   github: https://github.com/hyperledger-labs/blockchain-automation-framework
   website: https://blockchain-automation-framework.readthedocs.io/en/latest/index.html
